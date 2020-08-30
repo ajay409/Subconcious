@@ -1,0 +1,201 @@
+body {
+  background: #000638;
+  overflow: scroll;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#backdrop {
+  background: #00000050;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+}
+
+/* Desktop main navigation bar */
+#main__header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main__navbar {
+  background-color: #3282b8;
+  width: 100%;
+}
+
+.brand-name {
+  vertical-align: middle;
+  margin: 0.2rem;
+}
+
+/* brand name on side navbar */
+.brand-name__size {
+    width: 100%;
+}
+
+.main__list {
+  width: 70%;
+  display: none;
+  vertical-align: middle;
+}
+
+.main__list__item {
+  display: inline-block;
+  list-style: none;
+}
+
+.main__list__item a {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+/* Mobile side-main navigation bar */
+
+.mob__navbar {
+    background: url('../images/main.jpg') left/cover;
+    border:  #003cff81 1px solid;
+    width: 75%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 300;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 700ms ease-in-out;
+}
+
+.mob__list {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    padding: 0px;
+}
+
+.mob__list__item {
+    list-style: none;
+}
+
+
+.mob__list__item .content__button {
+    color: #ffffff;
+    background: #ffffff57;
+    border: #003cff62 1px solid;
+    border-right: none;
+    border-left: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.mob__list__item .content__button:hover,
+.mob__list__item .content__button:active,
+.mob__list__item .content__button:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+/* Mobile side navigation bar contents button*/
+.mob__list__content {
+    background: #ffffff28;
+    visibility: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: opacity 600ms ease-in;
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 0px;
+}
+
+.mob__list__content_items {
+    border: black 0.5px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    list-style: none;
+    padding: 0.8rem 10%;
+}
+
+.mob__list__content_items a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.mob__list__content_items a:hover,
+.mob__list__content_items a:active,
+.mob__list__content_items a:focus {
+    color: #eeff0088;
+    border-bottom: #eeff0088 2px solid;
+}
+
+/* Mobile side navgation opening buttion */
+
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 90%;
+  height: 0.2rem;
+  background: #00000091;
+  display: block;
+  margin: 0.4rem 0;
+}
+
+
+/* footer bar */
+.main-footer {
+  background: black;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.main-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
+}
+
+
+.open {
+  display: block!important;
+  visibility: visible;
+  opacity: 1 !important;
+}
+
+.Open {
+  visibility: visible;
+  opacity: 1 !important;
+  height: auto;
+}

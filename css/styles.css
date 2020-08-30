@@ -1,0 +1,25 @@
+main {
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px 0.4rem 0.5rem;
+    padding-top: 1.5rem;
+}
+
+span {
+    font-weight: 500;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0.7rem;
+}
+
+.intro {
+    background:  url('../images/logo-intro.png') top 10% left/20rem no-repeat ,url('../images/treasure.jpg') right/contain no-repeat;
+    text-align: center;
+    margin: 0px;
+    height: 33vh;
+}
